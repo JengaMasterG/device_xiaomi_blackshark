@@ -11,7 +11,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_blackshark
-PRODUCT_DEVICE := SKR-A0
+PRODUCT_DEVICE := blackshark
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := BlackShark
 PRODUCT_MANUFACTURER := Xiaomi
@@ -24,3 +24,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="blackshark"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi-rev1
+
+#ALLOW_MISSING_DEPENDENCIES := true
